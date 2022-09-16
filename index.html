@@ -78,7 +78,14 @@
               <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
               <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="about.html">About</a></li>
               <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="pedagogy.html">Pedagogy</a></li>
-              <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="user-research.html">Programmes & Fees</a></li>
+              <li class="nav-item px-2 nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown" aria-current="page" href="programmes.html">Programmes & Fees</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="programmes.html">Overview</a></li>
+                  <li><a class="dropdown-item" href="maths.html">Primary School Maths</a></li>
+                  <li><a class="dropdown-item" href="science.html">Primary School Science</a></li>
+                  <li><a class="dropdown-item" href="english.html">Primary School English</a></li>
+                </ul>
+              </li>
               <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="user-research.html">FAQs</a></li>
             </ul><a class="btn btn-primary order-1 order-lg-0" href="#!">Contact</a>
             <!-- <form class="d-flex my-3 d-block d-lg-none">
@@ -101,7 +108,7 @@
             <div class="col-md-5 col-lg-6 order-0 order-md-1 text-end"><img class="pt-7 pt-md-0 w-100" src="assets/img/gallery/hero-header.png" width="470" alt="hero-header" /></div>
             <div class="col-md-7 col-lg-6 text-md-start text-center py-6">
               <h4 class="fw-bold font-sans-serif">Learners Valley: Where Dreams Take Flight</h4>
-              <h1 class="fs-6 fs-xl-7 mb-5">Master concepts fast and ace exams with us. </h1><a class="btn btn-primary me-2" href="#!" role="button">Read More</a>
+              <h1 class="fs-6 fs-xl-7 mb-5">Master concepts fast and ace exams with us. </h1><a class="btn btn-primary me-2" href="#about" role="button">Read More</a>
             </div>
           </div>
         </div>
@@ -147,8 +154,8 @@
                 <div class="card card-span text-white h-100 align-items-center"><img class="w-100" src="assets/img/gallery/review.jpg" alt="..." />
                 </div>
               </div>
-              <div class="col-md-12 col-lg-6 h-100 ">
-                <h1 class="my-4" id="howitworks">About Us</span></h1>
+              <div class="col-md-12 col-lg-6 h-100 text-center align-items-center">
+                <h1 class="my-4" id="about">About Us</span></h1>
                 <p>Learners Valley was founded by a former MOE teacher and her co-founder who have aced the education 
                   system in Singapore. From our own experiences in top schools in Singapore, we are determined to help 
                   children excel in the education system and to encourage them to pursue their passions.
@@ -157,9 +164,8 @@
                   exposing children to new and meaningful experiences so that they will never lose their
                    sense of wonder, and inculcating grit in children. 
                 </p>
-                <div>
-                  <a class="btn btn-primary me-2" href="#!" role="button">Learn More About Us</a>
-  
+                <div class="">
+                  <a class="btn btn-primary me-2" href="about.html" role="button">Learn More About Us</a>
                 </div>
   
               </div>
@@ -215,50 +221,51 @@
           <div class="container">
             <div class="row">
               <h1 class="text-center mb-5"> Our Programmes</h1>
-              <div class="col-md-4 mb-4">
-                <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/design.png" alt="courses" />
-                  <div class="card-body">
-                    <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Primary Maths Tuition</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
+              <div class="container px-4" id="custom-cards">    
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                  <div class="col">
+                    <div class="card card-cover text-white bg-danger rounded-5 shadow-lg">
+                      <div class="d-flex flex-column pb-3 text-white text-shadow-1 text-center">
+                        <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold text-white">Primary Maths</h2>
+                        <div class="text-center">
+                          <a href="maths.html" class="btn btn-outline-light">
+                            Learn More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-4 mb-4">
-                <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/psychology.png" alt="courses" />
-                  <div class="card-body">
-                    <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Primary English Tuition</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
+            
+                  <div class="col">
+                    <div class="card card-cover text-white rounded-5 bg-info shadow-lg">
+                      <div class="d-flex flex-column pb-3 text-white text-shadow-1 text-center">
+                        <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold text-white">Primary English</h2>
+                        <div class="text-center">
+                          <a href="english.html" class="btn btn-outline-light">
+                            Learn More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-4 mb-4">
-                <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/philosophy.png" alt="courses" />
-                  <div class="card-body">
-                    <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Holiday Revision Camps</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">Duke University</a>
+            
+                  <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white rounded-5 bg-gradient shadow-lg" style="background-color: blue">
+                      <div class="d-flex flex-column pb-3 text-white text-shadow-1 text-center">
+                        <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold text-white">Primary Science</h2>
+                        <div class="text-center">
+                          <a href="science.html" class="btn btn-outline-light">
+                            Learn More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-4 mb-4">
-                <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/photographs.png" alt="courses" />
-                  <div class="card-body">
-                    <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Holiday STEM Workshops</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">Duke University</a>
                   </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-4 mb-4">
-                <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/arguments.png" alt="courses" />
-                  <div class="card-body">
-                    <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">MOE Schools STEM Programmes</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 mb-4">
-                <div class="card h-100"><img class="card-img-top w-100" src="assets/img/gallery/experience-design.png" alt="courses" />
-                  <div class="card-body">
-                    <h5 class="font-sans-serif fw-bold fs-md-0 fs-lg-1">Biodiversity Nature Learning Journey</h5><a class="text-muted fs--1 stretched-link text-decoration-none" href="#!">The Museum of Modern Art</a>
-                  </div>
-                </div>
-              </div>
-              <div>              
-                <a class="btn btn-primary me-2" href="#!" role="button">Programmes & Fees</a>
+              <div class="d-flex align-items-center justify-content-center">              
+                <a class="btn btn-primary me-2" href="programmes.html" role="button">Programmes & Fees</a>
               </div>
 
             </div>
@@ -371,51 +378,26 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="bg-secondary">
+      <section class="bg-info pt-4">
 
-        <div class="container">
+        <div class="container mt-0 mb-4">
           <div class="row">
-            <div class="col-12 col-sm-12 col-lg-6 mb-4 order-0 order-sm-0"><a class="text-decoration-none" href="#"><img src="assets/img/gallery/footer-logo.png" height="51" alt="" /></a>
-              <p class="text-light my-4"> <i class="fas fa-map-marker-alt me-3"></i><span class="text-light">1500 Treat Ave, Suite 200  &nbsp;</span><a class="text-light" href="tel:+604-680-9785">+604-680-9785</a><br />San Francisco, CA 94110</p>
-              <p class="text-light"> <i class="fas fa-envelope me-3"> </i><a class="text-light" href="mailto:vctung@outlook.com">vctung@outlook.com </a></p>
-              <p class="text-light"> <i class="fas fa-phone-alt me-3"></i><a class="text-light" href="tel:1-800-800-2299">1-800-800-2299 (Support)</a></p>
+            <div class="col"><a class="text-decoration-none" href="#"><img src="assets/img/gallery/logo-text.png" height="200" alt="logo" /></a>
+              <p class="text-light my-4"> <i class="fas fa-map-marker-alt me-3"></i><span class="text-light">1500 Treat Ave, Suite 200  &nbsp;</span><br />Singapore</p>
+              <p class="text-light"> <i class="fas fa-envelope me-3"> </i><a class="text-light" href="mailto:vctung@outlook.com">asdf@asd.com </a></p>
+              <p class="text-light"> <i class="fas fa-phone-alt me-3"></i><a class="text-light" href="tel:1-800-800-2299"> (WhatsApp / Telegram)</a></p>
             </div>
-            <div class="col-6 col-sm-4 col-lg-2 mb-3 order-2 order-sm-1">
-              <h5 class="lh-lg fw-bold mb-4 text-light font-sans-serif">Community </h5>
+            <div class="col">
+              <h5 class="lh-lg fw-bold mb-4 text-light font-sans-serif mt-6">Quick Links </h5>
               <ul class="list-unstyled mb-md-4 mb-lg-0">
-                <li class="lh-lg"><a class="text-200" href="#!">Learners</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Partners</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Developers</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Beta Testers</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Translators</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Blog</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Tech Blog</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Teaching Center</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2 mb-3 order-3 order-sm-2">
-              <h5 class="lh-lg fw-bold text-light mb-4 font-sans-serif">Informations</h5>
-              <ul class="list-unstyled mb-md-4 mb-lg-0">
-                <li class="lh-lg"><a class="text-200" href="#!">About</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Pricing</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Blog</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Careers</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Contact</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2 mb-3 order-3 order-sm-2">
-              <h5 class="lh-lg fw-bold text-light mb-4 font-sans-serif"> More</h5>
-              <ul class="list-unstyled mb-md-4 mb-lg-0">
-                <li class="lh-lg"><a class="text-200" href="#!">Press</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Investors</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Terms</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Privacy</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Help</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Accessibility</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Contact</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Articles</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Directory</a></li>
-                <li class="lh-lg"><a class="text-200" href="#!">Affiliates</a></li>
+                <li class="lh-lg"><a class="text-200" href="#!">Programmes & Fees</a></li>
+                <li class="lh-lg"><a class="text-200" href="#!">Primary School Maths</a></li>
+                <li class="lh-lg"><a class="text-200" href="#!">Primary School English</a></li>
+                <li class="lh-lg"><a class="text-200" href="#!">Primary School Science</a></li>
+                <li class="lh-lg"><a class="text-200" href="#!">About Us</a></li>
+                <li class="lh-lg"><a class="text-200" href="#!">Pedagogy</a></li>
+                <li class="lh-lg"><a class="text-200" href="#!">FAQs</a></li>
+                <li class="lh-lg"><a class="text-200" href="#!">Location</a></li>
               </ul>
             </div>
           </div>
@@ -428,17 +410,10 @@
 
 
       <section class="py-0" style="margin-top: -5.8rem;">
-        <div class="container bg-primary">
+        <div class="bg-primary">
           <div class="row justify-content-md-between justify-content-evenly py-4">
             <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start">
-              <p class="fs--1 my-2 fw-bold">All rights Reserved &copy; Your Company, 2021</p>
-            </div>
-            <div class="col-12 col-sm-8 col-md-6">
-              <p class="fs--1 my-2 text-center text-md-end"> Made with&nbsp;
-                <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#EB6453" viewBox="0 0 16 16">
-                  <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
-                </svg>&nbsp;by&nbsp;<a class="fw-bold text-900" href="https://themewagon.com/" target="_blank">ThemeWagon </a>
-              </p>
+              <p class="fs--1 my-2 fw-bold px-4">All rights Reserved &copy; Learners Valley Pte Ltd</p>
             </div>
           </div>
         </div>
